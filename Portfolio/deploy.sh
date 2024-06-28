@@ -11,12 +11,8 @@ hugo
 # Go to the public directory
 cd $PUBLIC_DIR
 
-# Initialize a new Git repository in the public directory
-git init
-git remote add origin $REPO
-
 # Checkout the specified branch
-git checkout -b $BRANCH
+git checkout $BRANCH
 
 # Add all the files and commit
 git add .
@@ -28,7 +24,5 @@ git push --force origin $BRANCH
 # Go back to the root directory
 cd ..
 
-# Clean up
-rm -rf $PUBLIC_DIR/.git
 
 echo "Deployment complete."
