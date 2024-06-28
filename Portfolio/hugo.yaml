@@ -1,0 +1,217 @@
+languageCode: en-us
+baseURL: "rajaSahil.github.io"
+title: rajaSahil
+paginate: 5
+theme: PaperModX
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+pygmentsUseClasses: true
+enableEmoji: true
+
+
+minify:
+  disableXML: true
+#  minifyOutput: true
+
+# prefer feed.xml rather than index.xml
+
+disableKinds:
+  - rss
+
+params:
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  title: Sahil Raja
+  description: "I'm Sahil Raja, a passionate senior software engineer and team lead driven by a love for solving complex problems and crafting exceptional software solutions. With expertise in Golang, Kubernetes (k8s), microservices, and distributed systems, I thrive on staying at the forefront of technology trends and continuously expanding my knowledge. Let's innovate together!"
+  keywords: [Blog, Portfolio, Backend Engineer]
+  author: Sahil Raja
+  # author: ["Me", "You"] # multiple authors
+  #images: ["<link or path of image for opengraph, twitter-cards>"]
+  DateFormat: "January 2, 2006"
+  defaultTheme: auto # dark, light
+  disableThemeToggle: false
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: false
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: false
+  tocopen: false
+
+
+  # profile-mode
+  profileMode:
+    enabled: false # needs to be explicitly set
+    title: "Hello, World! \U0001F44B"
+    subtitle: |
+      I'm **Sahil Raja**, a seasoned software engineer with extensive experience in leading teams and
+      driving projects to successful completion. Over the years, I have honed my skills in
+      **Golang**, **Rust**, **Kubernetes (k8s)**, **microservices**, and **distributed systems**.
+      With a passion for technology and a commitment to excellence, I have a proven
+      track record of delivering high-quality, scalable software solutions.
+      
+      Here's what defined me:
+      
+      -  **Backend Developer**
+      
+      -  Open Source Contributions
+          I'm a strong advocate for open source and have actively contributed to several projects:
+          
+          -  openEBS: Enhanced the open-source container storage solution with new features and performance improvements.
+          -  KubeArmor: Actively contributing to the development of this runtime security enforcement system, improving its capabilities and security measures.  
+      Let's innovate together!
+    imageUrl: "images/dp.png"
+    imageWidth: 120
+    imageHeight: 120
+    imageTitle: "Backend Engineer"
+    buttons:
+      - name: Blogs
+        url: blogs
+      - name: Projects
+        url: projects
+
+
+  # home-info mode
+  homeInfoParams:
+    enabled: false # needs to be explicitly set
+    title: "Hello 0x57 0x6F 0x72 0x6C 0x64! \U0001F44B"
+    content: |
+      I'm **rajaSahil**, a seasoned software engineer with extensive experience in leading teams and
+      driving projects to successful completion. With a passion for technology and a commitment to excellence, I have a proven
+      track record of delivering high-quality, scalable software solutions.
+      
+      **My Professional Journey**
+      
+      My journey in the tech industry has been both exciting and diverse. I've had the
+      opportunity to work on a variety of projects, lead talented teams, and drive 
+      technological advancements. As a tech lead, I prioritize collaboration, 
+      continuous learning, and delivering efficient and innovative solutions.
+      
+      Here's what defines me:
+      
+      -  **Backend Developer**
+      
+         I'm an experienced backend developer with over 4 years in the field, specializing in **Golang**, 
+      **Rust**, **Kubernetes**, **microservices architecture**, and **distributed systems**. I excel in
+      designing and implementing scalable solutions to optimize performance and
+      reliability in backend applications.
+
+      -  **Open-source enthusiast**
+      
+          I am passionate about open source and have made significant contributions to several projects.      
+          -  **openEBS**: Enhanced the open-source container storage solution with new features and performance improvements.
+          -  **KubeArmor**: Actively contributing to the development of this runtime security enforcement system, improving its capabilities and security measures.
+      
+      
+      
+      Let's innovate together!
+    imageUrl: "images/dp.png"
+    imageWidth: 120
+    imageHeight: 120
+    imageTitle: "Backend Engineer"
+    buttons:
+      - name: Blogs
+        url: blogs
+      - name: Projects
+        url: projects
+
+  socialIcons:
+    - name: linkedin-simple
+      url: ""
+    - name: github-simple
+      url: "https://github.com/rajaSahil"
+    - name: medium
+      url: ""
+    - name: gmail
+      url: ""
+    - name: twitter-simple
+      url: ""
+    - name: buymeacoffee
+      url: "https://www.buymeacoffee.com/dataprofessor"
+
+#  analytics:
+#    google:
+#      SiteVerificationTag: "XYZabc"
+#    bing:
+#      SiteVerificationTag: "XYZabc"
+#    yandex:
+#      SiteVerificationTag: "XYZabc"
+
+  cover:
+    hidden: true # hide everywhere but not in structured data
+    hiddenInList: true # hide on list pages and home
+    hiddenInSingle: false # hide on single page
+
+
+  editPost:
+    #    URL: "https://github.com/chanin-www/content"
+    #    Text: "Suggest Changes" # edit text
+    URL: ""
+    Text: "" # edit text
+    appendFilePath: true # to append file path to Edit link
+
+  # for search
+  # https://fusejs.io/api/options.html
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
+menu:
+  main:
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 4
+#    - identifier: blog
+#      name: Blogs
+#      url: /blogs/
+#      weight: 1
+#    - identifier: projects
+#      name: Projects
+#      url: /projects/
+#      weight: 2
+#    - identifier: resume
+#      name: Resume
+#      url: /resume/
+#      weight: 3
+    #- identifier: tags
+    #  name: tags
+    #  url: /tags/
+    #  weight: 4
+
+    #- identifier: example
+    #  name: example.org
+    #  url: https://example.org
+    #  weight: 30
+# Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
+# pygmentsUseClasses: true
+
+markup:
+  defaultMarkdownHandler: goldmark
+  goldmark:
+    renderer:
+      unsafe: true
+      hardWraps: false
+      xhtml: false
+    extensions:
+      definitionList: true
+      footnote: true
+      linkify: true
+      linkifyProtocol: https
+      strikethrough: true
+      table: true
+      taskList: true
+  highlight:
+    noClasses: false
