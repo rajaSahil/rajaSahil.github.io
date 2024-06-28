@@ -1,5 +1,5 @@
 languageCode: en-us
-baseURL: "rajaSahil.github.io"
+baseURL: "https://rajaSahil.github.io/"
 title: rajaSahil
 paginate: 5
 theme: PaperModX
