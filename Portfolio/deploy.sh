@@ -8,11 +8,15 @@ PUBLIC_DIR="public"
 # Build the Hugo site
 hugo
 
-# Go to the public directory
-cd $PUBLIC_DIR
+mv public/* ..
+cd ..
+
+git branch -D $BRANCH
 
 # Checkout the specified branch
-git checkout $BRANCH
+git checkout -b $BRANCH
+
+rm -rf Porttfolio
 
 # Add all the files and commit
 git add .
@@ -21,8 +25,6 @@ git commit -m "Deploy to GitHub Pages"
 # Force push to the specified branch
 git push --force origin $BRANCH
 
-# Go back to the root directory
-cd ..
 
 
 echo "Deployment complete."
