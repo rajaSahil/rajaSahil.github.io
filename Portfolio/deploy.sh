@@ -25,6 +25,4 @@ git commit -m "Deploy to GitHub Pages"
 # Force push to the specified branch
 git push --force origin $BRANCH
 
-
-
 echo "Deployment complete."

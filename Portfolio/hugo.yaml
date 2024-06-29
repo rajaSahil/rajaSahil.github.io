@@ -84,7 +84,7 @@ params:
   # home-info mode
   homeInfoParams:
     enabled: false # needs to be explicitly set
-    title: "Hello 0x57 0x6F 0x72 0x6C 0x64! \U0001F44B"
+    title: "Hello, 0x57 0x6F 0x72 0x6C 0x64! \U0001F44B"
     content: |
       I'm **Sahil Raja**, a seasoned software engineer with extensive experience in leading teams and
       driving projects to successful completion. With a passion for technology and a commitment to excellence, I have a proven
