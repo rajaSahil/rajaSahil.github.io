@@ -19,6 +19,8 @@ minify:
 
 # prefer feed.xml rather than index.xml
 
+
+
 disableKinds:
   - rss
 
@@ -84,7 +86,7 @@ params:
     enabled: false # needs to be explicitly set
     title: "Hello 0x57 0x6F 0x72 0x6C 0x64! \U0001F44B"
     content: |
-      I'm **rajaSahil**, a seasoned software engineer with extensive experience in leading teams and
+      I'm **Sahil Raja**, a seasoned software engineer with extensive experience in leading teams and
       driving projects to successful completion. With a passion for technology and a commitment to excellence, I have a proven
       track record of delivering high-quality, scalable software solutions.
       
@@ -125,17 +127,16 @@ params:
 
   socialIcons:
     - name: linkedin-simple
-      url: ""
+      url: "https://www.linkedin.com/in/sahil-raja-1422b5143/"
     - name: github-simple
       url: "https://github.com/rajaSahil"
     - name: medium
-      url: ""
+      url: "https://rajasahil.medium.com/"
     - name: gmail
-      url: ""
+      url: "mailto:sahilraja242@gmail.com"
     - name: twitter-simple
-      url: ""
-    - name: buymeacoffee
-      url: "https://www.buymeacoffee.com/dataprofessor"
+      url: "https://x.com/Sahil_Raja_"
+
 
 #  analytics:
 #    google:
@@ -174,10 +175,10 @@ menu:
       name: About
       url: /about/
       weight: 4
-#    - identifier: blog
-#      name: Blogs
-#      url: /blogs/
-#      weight: 1
+    - identifier: blog
+      name: Blogs
+      url: /blogs/
+      weight: 1
 #    - identifier: projects
 #      name: Projects
 #      url: /projects/
