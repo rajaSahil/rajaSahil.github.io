@@ -60,15 +60,6 @@ params:
       With a passion for technology and a commitment to excellence, I have a proven
       track record of delivering high-quality, scalable software solutions.
       
-      Here's what defined me:
-      
-      -  **Backend Developer**
-      
-      -  Open Source Contributions
-          I'm a strong advocate for open source and have actively contributed to several projects:
-          
-          -  openEBS: Enhanced the open-source container storage solution with new features and performance improvements.
-          -  KubeArmor: Actively contributing to the development of this runtime security enforcement system, improving its capabilities and security measures.  
       Let's innovate together!
     imageUrl: "images/dp.png"
     imageWidth: 120
@@ -83,7 +74,7 @@ params:
 
   # home-info mode
   homeInfoParams:
-    enabled: false # needs to be explicitly set
+    enabled: true # needs to be explicitly set
     title: "Hello, 0x57 0x6F 0x72 0x6C 0x64! \U0001F44B"
     content: |
       I'm **Sahil Raja**, a seasoned software engineer with extensive experience in leading teams and
