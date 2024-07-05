@@ -58,7 +58,7 @@ The number of transistors and logical ports in the same chip kept increasing in 
 > **A core is a processing unit of the CPU**, It is responsible for executing programs and multiple other actions on a computer.
 
 <p align="center">
-<img src="/images/Core-2.png"/>
+<img src="/images/0_concurrency/Core-2.png"/>
 </p>
 
 #### CPU(Central Processing Unit)
@@ -67,7 +67,7 @@ The number of transistors and logical ports in the same chip kept increasing in 
 In this way, a computer with a single CPU can simultaneously execute n tasks, where n is the number of cores. As a note, n is the total number of available threads if the CPU cores employ multithreading.
 
 <p align="center">
-<img src="/images/cpu.png"/>
+<img src="/images/0_concurrency/cpu.png"/>
 </p>
 
 To summarize about _CPU_ and _Cores_
@@ -92,7 +92,7 @@ Now consider a different example, calculating digits of pi, this problem is also
 it can easily be divided into parallel tasks. In this case, **significant gains can be made by making more cores available
 to the program**.
 <p align="center">
-<img src="/images/amdahl.png"/>
+<img src="/images/0_concurrency/amdahl.png"/>
 </p>
 
 
